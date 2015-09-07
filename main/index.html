@@ -1,0 +1,58 @@
+<?php
+	require_once('../includes/header.php');
+
+	  echo '<div class="col-xs-12" style="height:75px;"></div>
+
+	  <div class="col-lg-6">
+	  	  <h1 class="page-header">My Courses</h1>
+	  	  <div id="left" style="height:400px;overflow:auto">
+	      		<script src="js/loadpage.js"></script>
+	      </div>
+	  </div>   
+
+	  <div class="col-lg-6">
+	  		<div class="row">
+	  			<h4>Add course to</h4>
+	  		</div>
+	        <div class="row"> 
+	    	  	<div class="form-group col-lg-3">
+	    	  		<label>Grade</label>
+	    	  		<select class="form-control" id="grade" name="grade">
+						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						        <option selected>---Grade---</option>
+						        <option>Freshman</option>
+						        <option>Sophomore</option>
+						        <option>Junior</option>
+						        <option>Senior</option>
+        					</ul>
+						</select>
+				</div>
+				<div class="form-group col-lg-3">
+					<label>Term</label>
+	    	  		<select class="form-control" id="term" name="term">
+						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						  		<option selected>---Term---</option>
+						        <option>Fall</option>
+						        <option>Spring</option>
+        					</ul>
+						</select>
+				</div>
+			</div>
+		  <div class="row">
+	  			<h4>Browse Courses</h4>
+	  	  </div>
+	  	  <div id="right">
+	  	  		<script src="js/loadpage2.js"></script>
+	  	  </div>
+  		  <div id="rightbottom" style="height:400px;overflow:auto">
+  		  </div>
+  		  
+	  </div>';
+  require_once('../includes/footer.php');
+?>
